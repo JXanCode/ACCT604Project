@@ -7,7 +7,8 @@ The data was sourced from the paper's GitHub repository (https://github.com/JarF
 In order to decipher the company names and retrieve credit ratings for each of the GVKEY's, we used Compustat Daily Updates-Ratings' database (https://wrds-www.wharton.upenn.edu/pages/get-data/compustat-capital-iq-standard-poors/compustat/north-america-daily/ratings/).
 
 
-Description of the notebooks:
+### Description of the notebooks:
+
 "DataCleanup_Final": code used to import Original data from reference paper and merge with credit ratings information from Compustat database in WRDS. The final step was to filter out missing values and export to a csv called 'FilteredDataJuly19".
 
 "DataVisualization_Final": code used to analyze fraud obersvations over time, as well as distribution of credit ratings from WRDS and all raw variables and financial ratios from the reference paper. This also contains a breakdown of fraud and non-fraud cases by GICS sector.
