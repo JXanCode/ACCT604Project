@@ -7,6 +7,10 @@ The data was sourced from the paper's GitHub repository (https://github.com/JarF
 
 
 Description of the notebooks:
-"DataCleanup_Final": import Original data from reference paper and merge with credit ratings information from Compustat database in WRDS. Also, filter out missing values and export to csv called 'FilteredData_July19".
+"DataCleanup_Final": code used to import Original data from reference paper and merge with credit ratings information from Compustat database in WRDS. The final step was to filter out missing values and export to a csv called 'FilteredDataJuly19".
+
+"DataVisualization_Final": code used to analyze fraud obersvations over time, as well as distribution of credit ratings from WRDS and all raw variables and financial ratios from the reference paper. This also contains a breakdown of fraud and non-fraud cases by GICS sector.
+
+
+
 "genAI": we tried to utilize OpenAI's api for ChatGPT to automatic data processing. We wanted to find the settlement amounts for each fraud case to do further anaylsis. However, we found that the data we got back was not trustworthy as the numbers would change each time we ran it.
-"D
